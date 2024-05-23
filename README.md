@@ -1,11 +1,18 @@
 ![22](https://github.com/Torres-09/hellolaw/assets/76430979/9aceb087-e23a-4fdd-bd14-8abc58c5313a)
 
 ## 목차
+0. [구현 사항](#0-구현-사항)
 1. [서비스 개요](#1-서비스-개요)
 2. [기술 스택](#2-기술-스택)
 3. [시스템 아키텍처](#3-시스템-아키텍처)
 4. [파일 구조](#4-파일-구조)
 5. [ERD](#5-erd)
+
+## 0. 구현 사항
+### [MVC 공통 로직](back-auth)  
+### [WebFlux 공통 로직](back-auth-v2)  
+### [Core API](hellolaw)  
+### [AI 추론](hellolaw-ai)
 
 ## 1. 서비스 개요
 
