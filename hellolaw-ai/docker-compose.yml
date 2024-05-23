@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: inference-server
+    ports:
+      - "8085:8085"
+    restart: on-failure
+    volumes:
+      - ./fastapi_data:/model
+
+
